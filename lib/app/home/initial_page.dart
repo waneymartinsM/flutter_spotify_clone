@@ -109,7 +109,7 @@ class _InitialPageState extends State<InitialPage> {
                         ),
                       ),
                     ),
-                    const HorizontalSongList(),
+                    const SongList(),
                     const SizedBox(height: 12),
                     const Padding(
                       padding: EdgeInsets.symmetric(
@@ -141,7 +141,7 @@ class _InitialPageState extends State<InitialPage> {
                         ),
                       ),
                     ),
-                    const HorizontalSongList(),
+                    const SongList(),
                     const SizedBox(height: 12),
                   ],
                 ),

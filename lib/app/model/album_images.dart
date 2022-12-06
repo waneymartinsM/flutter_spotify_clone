@@ -7,6 +7,15 @@ List albumImages = [
   'https://i.scdn.co/image/ab67706f000000037cda1a881997b0bb1ca0eb92',
 ];
 
+List songImages = [
+  'https://i.scdn.co/image/ab67616d0000b2731624590458126fc8b8c64c2f',
+  'https://i.scdn.co/image/ab67706c0000bebb5e0d1386755fc7757591d2b5',
+  'https://i.scdn.co/image/ab67616d0000b273f79b7f08426e2899a832d3e6',
+  'https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452',
+  'https://i.scdn.co/image/ab67616d0000b2733899712512f50a8d9e01e951',
+  'https://i.scdn.co/image/ab67616d0000b273daea95d4bb9f793d43ce5318',
+];
+
 List artistImages = [
   'https://i.scdn.co/image/ab6761610000e5eba5205abffd84341e5bace828',
   'https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a',
