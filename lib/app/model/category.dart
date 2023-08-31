@@ -4,16 +4,19 @@ class TagsModel {
   final String tag;
   final String image;
   final Color color;
+
   TagsModel({
     required this.tag,
     required this.image,
     required this.color,
   });
+
   factory TagsModel.fromJson(Map<String, dynamic> json) => TagsModel(
     tag: json["tag"],
     image: json["coverImage"],
     color: Color(json['color']),
   );
+
 }
 
 final tags = [

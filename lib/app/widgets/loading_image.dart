@@ -15,11 +15,7 @@ class LoadingImage extends StatelessWidget {
     return Container(
       color: Colors.grey.shade800,
       child: icon ??
-          FaIcon(
-            FontAwesomeIcons.music,
-            color: Colors.black,
-            size: size,
-          ),
+          FaIcon(FontAwesomeIcons.music, color: Colors.black, size: size),
     );
   }
 }

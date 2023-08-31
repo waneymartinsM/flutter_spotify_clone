@@ -3,9 +3,7 @@ import 'package:flutter_spotify_clone/app/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class HorizontalSongList extends StatelessWidget {
-  const HorizontalSongList({
-    Key? key,
-  }) : super(key: key);
+  const HorizontalSongList({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +24,10 @@ class HorizontalSongList extends StatelessWidget {
                     children: [
                       ClipRRect(
                           borderRadius: BorderRadius.circular(5),
-                          child: Image.network(albumImages[index],
-                              fit: BoxFit.fill)),
+                          child: Image.network(
+                            albumImages[index],
+                            fit: BoxFit.fill,
+                          )),
                       const SizedBox(height: 7),
                       Text('Nome do álbum',
                           maxLines: 2,

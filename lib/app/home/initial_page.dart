@@ -19,9 +19,7 @@ class _InitialPageState extends State<InitialPage> {
       backgroundColor: black,
       body: loading == true
           ? const CircularProgressIndicator(
-              backgroundColor: black,
-              color: green,
-            )
+              backgroundColor: black, color: green)
           : Container(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
@@ -30,7 +28,7 @@ class _InitialPageState extends State<InitialPage> {
                   colors: <Color>[
                     Color(0xff4C4C4C),
                     Color(0xff000000),
-                    Color(0xff000000),
+                    Color(0xff000000)
                   ],
                 ),
               ),
